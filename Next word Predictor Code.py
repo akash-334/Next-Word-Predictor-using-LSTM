@@ -531,32 +531,14 @@ model.save("lstm_model.h5")
 # In[50]:
 
 
-from tensorflow.keras.models import load_model
-
-# Load the model
-model = load_model(r"C:\Users\91898\tokenizer.pkl")
-print("Model loaded successfully!")
-
 
 # In[48]:
 
-
-import tensorflow as tf
-print("TensorFlow version:", tf.__version__)
 
 
 # In[52]:
 
 
-pickle.load(r'C:\Users\91898\tokenizer.pkl',"rb")
-
-
-# In[53]:
-
-
-with open(r"C:\Users\91898\tokenizer.pkl", "rb") as file:
-    tokenizer = pickle.load(file)
-    print("done")
 
 
 # In[ ]:
